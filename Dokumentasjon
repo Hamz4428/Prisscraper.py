@@ -1,0 +1,75 @@
+Gjennomfør: 
+1.	Bruk en metode og strukturer systemutviklingsprosjektet 
+2.	Bruk computational thinking 
+3.	Lag dokumentasjon 
+Dato: 5.11.2021
+Fra: Hamza Hamdane
+Til: Geir østengen 
+Sak: Dokumentasjon system utvikling 
+
+Arbeid utført: 
+Kode en web scraper i Python som går gjennom informasjon i en side og analyserer og trekker ut hoved punkter du selv bestemmer denne jeg lagde hentet ut informasjon om fisker som rase art og beliggenhet.
+
+Iverksatt sikker kode som åpner en database og lager tabeller og under tabeller i den databasen.
+
+Resultat sendes til database 
+
+Problemer under koding: 
+Hadde problemer med å sende informasjonen til databasen og hvordan dette skulle kunne eksporteres. (dette løste jeg ved å gjøre det mulig å eksportere informasjon til Excel ark eller liknende)
+
+Hadde problemer med å installere moduler med PIP (dette løste jeg ved ulike måter testing der jeg prøvde å finne ut installasjons pathen til selve Python, etter jeg fant hvor det var lagret adderte jeg Python versjon som en enviormental variabel. Dette fikset problemet)
+
+Innledning: 
+Den …. Fikk vi en oppgave av programmerings læreren min Geir-østengen, denne oppgaven gikk ut på å lage et system løsning der vi utfører forskjellige kompetansemål som vi har gått gjennom i løpet av skole-året.
+Hoveddel:
+Oppgaven gikk ut på å lage et selvvalgt system løsning med database i selvvalgt kodespråk. Hovedmålet med oppgaven var at vi elever skulle vise læreren at vi har lært det vi har gått gjennom. Dette skulle vi gjøre ved å lage en strukturert plan, dokumentasjon og iverksette både tenke måter versjons håndtering og sikkerhet i prosjektet vårt. 
+
+4.	Prosjektet skal inneholde en database 
+Dato: 14.11.2021
+Fra: Hamza Hamdane
+Til: Geir østengen 
+Sak: Dokumentasjon database
+
+Arbeid utført: 
+Web scraper koden min er knyttet til en MYSQL database som gjør at informasjon som blir innhentet av koden blir lagret i et selvbestemt oppsett i databasens ulike tabeller og rader. Informasjonen kan da senere eksporteres og er klar for analyse. En MySQL-database er god grunnet dens rekke gunstige egenskaper som f.eks.  dens goder sikkerhets funksjonaliteter, dens høye ytelse og at en MySQL-database er veldig fleksibel på hva slags data som kan bli satt inn.
+
+5.	Du skal vise at du mestrer testing og debugging i dokumentasjonen. Beskriv handlinger 
+6.	Sett opp et versjonshåndterings system 
+Dato: 14.11.2021
+Fra: Hamza Hamdane
+Til: Geir østengen 
+Sak: Dokumentasjon oppsett av versjonshåndtering system 
+
+Arbeid utført: 
+Satt opp et versjonshåndtering system ved hjelp av GitHub, og git. 
+Dette gjør at bruker/utvikler kan komme med oppdateringer i koden som kan vises i et team eller til individuelle personer. Det gunstige med dette er at utviklere kan endre/kommentere på kode uten å endre på original kode. Original kode kan også oppdateres og kode som er oppdatert kan rerulles til kode som allerede har vært som sikrer at man kan gå tilbake til funksjonell kode vis det oppstår problemer med oppdatering. 
+
+
+
+7.	Beskriv hvordan du tenkte informasjonssikkerhet i plan og gjennomføring av prosjektet  
+Hvordan jeg brukte informasjon sikkerhet i prosjektet:
+1) Definer klare grenser
+Definer informasjonssystemets grenser tydelig. Bortsett fra å identifisere hvor dataene er lagret, må du bestemme hvor dataene flyter, så vel som de kritiske avhengighetene.
+
+Med den definerte systemgrensen bør organisasjonen ha en klar og veldefinert representasjon av alle enheter som lagrer eller behandler systemdata. For eksempel definerer getters og setters i programvareutvikling grensene for data som er lagret eller behandlet av produktet ditt.
+
+
+Data maping:
+Det er viktig å kartlegge hvor og hva slags data prosjektet skal regulere og om dette er personlig eller sensitive person opplysninger.  Å kartlegge dette gjør det lettere for oss utviklere å påpeke hvor vi eventuelt må ta sikkerhets tiltak.  Vi må kartlegge hva som blir lagret hvor dette kommer fra, hvor denne dataen blir lagret, hvem som har tilgang og hvem som er ansvarlig for denne dataen. 
+
+8.	Beskriv hvor du kunne brukt Secure Coding i prosjektet. Hvis du kan bruke litt sikkerhet er det fint, men ikke nødvendig 
+
+Dato: 14.11.2021
+Fra: Hamza Hamdane
+Til: Geir østengen 
+Sak: Hvordan jeg kunne brukt secure-coding
+
+
+1: Valider inndata. Valider inndata fra alle ikke-klarerte datakilder. Riktig inndatavalidering kan eliminere det store flertallet av programvaresårbarheter. Vær mistenksom overfor de fleste eksterne datakilder, inkludert kommandolinjeargumenter, nettverksgrensesnitt, miljøvariabler og brukerkontrollerte filer
+
+2: Hold designet så enkelt og lite som mulig Komplekse design øker sannsynligheten for at det vil bli gjort feil i implementeringen, konfigurasjonen og bruken. I tillegg øker innsatsen som kreves for å oppnå et passende sikkerhetsnivå dramatisk etter hvert som sikkerhetsmekanismene blir mer komplekse.
+
+3: Identifiser og dokumenter sikkerhetskrav tidlig i utviklingens livssyklus og sørg for at påfølgende utviklingsnødvendigheter blir evaluert for samsvar med disse kravene. Når sikkerhetskrav ikke er definert, kan ikke sikkerheten til det resulterende systemet evalueres effektivt, dette kan skape feil som kan bli utnyttet ved en mulig data lekkasje eller cyber angrep.
+
+
+
